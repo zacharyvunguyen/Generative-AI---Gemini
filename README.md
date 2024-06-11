@@ -1,0 +1,2 @@
+# Generative AI - Gemini
+ Generative AI - Gemini is an advanced AI project leveraging state-of-the-art generative models and Google Cloud Platform (GCP) services. It aims to develop sophisticated AI applications using LangChain and other cutting-edge technologies. This repository showcases various implementations and experiments in generative AI, focusing on creating robust, scalable, and efficient AI-driven solutions.

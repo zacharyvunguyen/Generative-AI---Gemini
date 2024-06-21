@@ -84,20 +84,35 @@ model = GenerativeModel(
 )
 
 st.set_page_config(
-    page_title="SQL Talk with BigQuery",
+    page_title="Conversational Data Insights with Gemini",
     layout="wide",
 )
 
 col1, col2 = st.columns([8, 1])
 with col1:
-    st.title("SQL Talk with BigQuery")
+    st.title("Conversational Data Insights with Gemini")
 with col2:
-    st.title("SQL Talk with BigQuery")
+    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW_EofI4NFCyiK1BkNO2l0pvdIuhVVptyXYg&s")
+
+with st.expander("Project Overview", expanded=True):
+    st.markdown(
+        """
+        **Project Overview**
+
+        - This application demonstrates the power of Gemini's Function Calling capabilities, enabling users to query and understand their BigQuery databases using natural language. 
+        - Forget complex SQL syntax – interact with your data conversationally.
+
+        **Key Features**
+        - **Natural Language Querying**: Allows users to query BigQuery databases using plain English.
+        - **Function Calling with Gemini**: Utilize Gemini's advanced function calling capabilities to generate and execute queries based on natural language descriptions.
+        """
+    )
 
 st.subheader("Powered by Function Calling in Gemini")
 
+
 st.markdown(
-    "[Source Code](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/function-calling/sql-talk-app/)   •   [Documentation](https://cloud.google.com/vertex-ai/docs/generative-ai/multimodal/function-calling)   •   [Codelab](https://codelabs.developers.google.com/codelabs/gemini-function-calling)   •   [Sample Notebook](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/function-calling/intro_function_calling.ipynb)"
+    "[LinkedIn](https://www.linkedin.com/in/zacharyvunguyen/)   •   [GitHub](https://github.com/zacharyvunguyen/)"
 )
 
 with st.expander("Sample prompts", expanded=True):

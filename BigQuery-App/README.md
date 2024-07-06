@@ -1,3 +1,4 @@
+![BQAPP.gif](imgs%2FBQAPP.gif)
 # Conversational Data Insights with Gemini
 ![function_calling.png](imgs%2Ffunction_calling.png)
 ## Overview
